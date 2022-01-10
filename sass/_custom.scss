@@ -1,0 +1,33 @@
+// PRIMARY AND SECONDARY COLOR
+$prim-dark-red: hsl(356, 100%, 66%);
+$prim-light-red: hsl(355, 100%, 74%);
+$sec-dark-blue: hsl(208, 49%, 24%);
+
+$primary: $prim-dark-red;
+$secondary: $sec-dark-blue;
+
+//NEUTRAL COLOR
+$neu-gray-blue: hsl(240, 2%, 79%);
+$neu-dark-gray-blue: hsl(207, 13%, 34%);
+$neu-dark-black-blue: hsl(240, 10%, 16%);
+
+//GRADIENT
+
+$grad-light-red: hsl(13, 100%, 72%);
+$grad-dark-red: hsl(353, 100%, 62%);
+$grad-dark-gray-blue: hsl(237, 17%, 21%);
+$grad-dark-desaturated-blue: hsl(237, 23%, 32%);
+
+// FONTS
+$font-family-over-pass: "Overpass", sans-serif;
+$font-family-ubuntu: "Ubuntu", sans-serif;
+
+$font-weight-lighter: 300;
+$font-weight-light: 400;
+$font-weight-normal: 500;
+$font-weight-bold: 600;
+$font-weight-bolder: 700;
+
+// IMPORT BOOTSTRAP & FONTS
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
